@@ -1,0 +1,45 @@
+{
+  "name": "abayar-ui-starter",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js",
+    "lint": "eslint .",
+    "check-formatting": "prettier --list-different '{src,pages}/**/*.js'"
+  },
+  "dependencies": {
+    "@chakra-ui/core": "^0.2.8",
+    "@emotion/core": "^10.0.17",
+    "@emotion/styled": "^10.0.17",
+    "emotion-theming": "^10.0.19",
+    "koa": "^2.8.1",
+    "koa-router": "^7.4.0",
+    "next": "9.0.6",
+    "react": "16.9.0",
+    "react-dom": "16.9.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-transform-runtime": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/runtime": "^7.6.0",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-module-resolver": "^3.2.0",
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-config-react-app": "^5.0.2",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-flowtype": "^4.3.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^1.18.2"
+  }
+}
